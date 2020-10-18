@@ -20,7 +20,7 @@ public class PitAboutCommand implements CommandExecutor {
             if (label.equalsIgnoreCase("pitabout")) {
                 if (args.length == 0) {
                     player.sendMessage(ChatColor.YELLOW.toString() + ChatColor.BOLD + "The Hypixel Pit Remake " + Main.version);
-                    player.sendMessage(ChatColor.YELLOW + "by " + ChatColor.RED + "Stevemmmmm");
+                    player.sendMessage(ChatColor.YELLOW + "by " + ChatColor.RED + "dantegamerOMG");
                     player.sendMessage(" ");
                     player.sendMessage(" ");
                     player.sendMessage(" ");
@@ -28,7 +28,7 @@ public class PitAboutCommand implements CommandExecutor {
                     player.sendMessage(" ");
                     player.sendMessage(" ");
                     player.sendMessage(" ");
-                    player.sendMessage(ChatColor.DARK_PURPLE.toString() + ChatColor.UNDERLINE + "Discord" + ChatColor.YELLOW + " ▶ " + ChatColor.BLUE + "Stevemmmmm#9796");
+                    player.sendMessage(ChatColor.DARK_PURPLE.toString() + ChatColor.UNDERLINE + "Discord" + ChatColor.YELLOW + " ▶ " + ChatColor.BLUE + "dantegamer79#6215");
                 }
             }
         }
